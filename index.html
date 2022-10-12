@@ -8,17 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button class="shake" onclick="erase()">Shake</button>
     <p> POCKET Etch A Sketch</p>
 
     <div class="container">
     </div>
+    <div class="colors">
+        <button class="color"  style="background-color: blue;" onclick="changeColor('blue')" ></button>
+        <button class="color"  style="background-color: red;" onclick="changeColor('red')" ></button>
+        <button class="color"  style="background-color: green;" onclick="changeColor('green')" ></button>
+        <button class="color"  style="background-color: grey;" onclick="changeColor('grey')" ></button>
+    </div>
+    
     <div class="buttons">
         
         <button><a href="http://github.com/brito-joao">Github</a></button>
         <button class="right"><a href="http://joaobrito.ml">Website</a></button>
         
     </div>
-    <p class="footer">Made by João in California</p>
+    <p class="footer">Works better in mobile</p>
     <script src="index.js"></script>
 </body>
 </html>

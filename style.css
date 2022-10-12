@@ -7,11 +7,30 @@ body{
     align-items: center;
 }
 
+.shake{
+    margin-left: auto;
+    border-radius: 10vh;
+    color:grey;
+    font-size: 50%;
+    background-color: white;
+
+}
 
 .container{
+    border:7px solid white;
+    border-radius: 3vh;
     display: flex;
     flex-wrap: wrap;
     width: 320px;
+    background-color: white;
+}
+.colors{
+    padding-top: 1%;
+}
+.color{
+    width: 5vh;
+    height:5vh;
+    border-radius: 50%;
 }
 
 div button{
@@ -27,7 +46,7 @@ div button{
     margin-left: auto;
 }
 .buttons{
-    padding-top:20%;
+    padding-top:10%;
     display: flex;
     width:40vh;
     
@@ -39,5 +58,5 @@ a{
 .footer{
     position: fixed;
     bottom:0;
-    font-size: 2vh;
+    font-size: 1.6vh;
 }
